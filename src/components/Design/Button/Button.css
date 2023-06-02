@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.6rem 1.25rem;
+  cursor: pointer;
+  transition: 0.2s color ease-in;
+  text-decoration: none;
+}
+
+.btn--primary {
+  background: #7F5AF0;
+}
+
+.btn--secondary {
+  background: rgb(139, 43, 43);
+}
+
+.btn--alert {
+  border-radius: 0.5rem;
+  background: #7F5AF0;
+  color: #fff;
+}
+.btn--alert:hover {
+  background: #6331f8;
+}
+
+.btn--primary:hover {
+  background: #6331f8;
+}
