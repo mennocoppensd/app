@@ -16,8 +16,6 @@ const UserChat = ({ userId }) => {
 
   const {
     data: property,
-    isLoading,
-    error,
   } = useFetch(`/properties/${propertyId}`);
 
   const handleBackClick = () => {

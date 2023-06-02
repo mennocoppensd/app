@@ -15,7 +15,7 @@ const PublicPropertiesOverview = ({ userId, searchTerm, order, saleType }) => {
     data: properties,
     error,
     isLoading,
-    refetch,
+
   } = useFetch("/properties");
 
   useEffect(() => {

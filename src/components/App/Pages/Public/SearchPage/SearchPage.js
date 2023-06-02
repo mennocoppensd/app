@@ -9,7 +9,7 @@ import { useState } from "react";
 // Landingpage = header (design) with app logic
 const SearchPage = () => {
   const { user, logout } = useAuthContext();
-  const { data: categories = [], isLoading, error } = useFetch("/categories");
+  const { data: categories = [], error } = useFetch("/categories");
 
   const [searchTerm, setSearchTerm] = useState("");
   const [order, setOrder] = useState("");
